@@ -3,7 +3,7 @@
 ## 📊 Interactive Dashboard
 **Tool**: Looker Studio  
 **Link**: [Students Performance Dashboard](https://lookerstudio.google.com/reporting/ebd65a5e-c2f3-4aa0-b28f-f7644b9d70fe) 
-
+Students Performance Streamlit Prediction]([https://lookerstudio.google.com/reporting/ebd65a5e-c2f3-4aa0-b28f-f7644b9d70fe](https://student-dropout-rcvv37srkuw2sv758cxjbr.streamlit.app/)) 
 ---
 
 ## 💼 Business Understanding
@@ -106,7 +106,7 @@ Aplikasi ini dibangun menggunakan framework **Streamlit** sehingga mudah digunak
 streamlit run streamlit_app.py
 ```
 
-Dapat diakses melalu Steamlit Community Cloud : [Students Performance Prediction](https://lookerstudio.google.com/reporting/ebd65a5e-c2f3-4aa0-b28f-f7644b9d70fe) 
+Dapat diakses melalu Steamlit Community Cloud : [Students Performance Prediction]([https://lookerstudio.google.com/reporting/ebd65a5e-c2f3-4aa0-b28f-f7644b9d70fe](https://student-dropout-rcvv37srkuw2sv758cxjbr.streamlit.app/)) 
 
 ## 🧠 Insight & Temuan Utama
 
