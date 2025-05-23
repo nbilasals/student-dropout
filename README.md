@@ -1,4 +1,4 @@
-# 🎓 Students Performance & Dropout Prediction
+# Menyelesaikan Permasalahan Institusi Pendidikan
 
 ## 📊 Interactive Dashboard
 **Tool**: Looker Studio  
@@ -51,6 +51,9 @@ pip install -r requirements.txt
 
 Dashboard dibuat menggunakan **Looker Studio**, menampilkan insight visual dari berbagai variabel yang memengaruhi status akademik siswa.
 
+![image](https://github.com/user-attachments/assets/751212d0-70d5-47ac-be0e-8fe0fef3cba2)
+
+
 ### 🎯 Insight utama dalam dashboard:
 - **Overview Akademik**:
   - Jumlah siswa
@@ -93,6 +96,17 @@ VotingClassifier(estimators=[('rfc', rfc), ('lr', lr), ('abc', abc), ('xbc', xbc
 ```
 📊 Performance:
 Accuracy: 80.34%|
+
+Model ini kemudian dikembangkan menjadi sistem prediksi untuk membantu institusi pendidikan dalam mengidentifikasi siswa yang berisiko tinggi mengalami dropout. Dengan adanya sistem ini, pihak institusi dapat melakukan intervensi secara lebih dini dan tepat sasaran guna meningkatkan keberhasilan akademik siswa.
+![image](https://github.com/user-attachments/assets/30884fc4-14d2-4864-8131-2740d9f4644e)
+
+Aplikasi ini dibangun menggunakan framework **Streamlit** sehingga mudah digunakan dan dapat dijalankan secara lokal. Untuk menjalankan aplikasi, gunakan perintah berikut pada terminal:
+
+```bash
+streamlit run streamlit_app.py
+```
+
+Dapat diakses melalu Steamlit Community Cloud : [Students Performance Prediction](https://lookerstudio.google.com/reporting/ebd65a5e-c2f3-4aa0-b28f-f7644b9d70fe) 
 
 ## 🧠 Insight & Temuan Utama
 
