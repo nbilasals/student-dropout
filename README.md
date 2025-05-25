@@ -4,7 +4,7 @@
 **Tool**: Looker Studio dan Streamlit  
 **Link**: 
 - [Students Performance Dashboard](https://lookerstudio.google.com/reporting/ebd65a5e-c2f3-4aa0-b28f-f7644b9d70fe) 
-- [Students Performance Streamlit Prediction](https://lookerstudio.google.com/reporting/ebd65a5e-c2f3-4aa0-b28f-f7644b9d70fe](https://student-dropout-rcvv37srkuw2sv758cxjbr.streamlit.app/ ) 
+- [Students Performance Streamlit Prediction](https://student-dropout-rcvv37srkuw2sv758cxjbr.streamlit.app/ ) 
 ---
 
 ## 💼 Business Understanding
