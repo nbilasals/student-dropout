@@ -39,13 +39,41 @@ Tingginya angka dropout berdampak pada:
 
 ---
 
-## 🧪 Setup Environment
+## 🧪 Preparation
+### Data Source:
+Data yang digunakan merupakan dataset dari Dicoding, yang berasal dari ari sebuah institusi pendidikan tinggi dan dikompilasi dari beberapa database yang terpisah. Isinya mencakup informasi mahasiswa dari berbagai program studi sarjana, seperti agronomi, desain, pendidikan, keperawatan, jurnalistik, manajemen, layanan sosial, dan teknologi. Data yang dikumpulkan meliputi informasi yang sudah diketahui saat mahasiswa pertama kali mendaftar, termasuk riwayat akademik, data demografis, serta faktor sosial ekonomi. 
+- [Students' Performance data](https://github.com/dicodingacademy/dicoding_dataset/tree/main/students_performance) 
+
+### Setup Environment
+Berikut langkah-langkah untuk menyiapkan dan menjalankan proyek di lingkungan lokal:
+#### 1. Clone Repository
+Clone repositori dari GitHub ke direktori lokal:
 
 ```bash
 git clone https://github.com/nbilasals/student-dropout-predictor.git
+```
+#### 2. Masuk ke Direktori Proyek
+Pindah ke directori proyek:
+```
 cd student-dropout-predictor
-pip install -r requirements.txt
+```
+#### 3. Buat Virtual Environment
+Buat environment Python terisolasi untuk menghindari konflik dependensi:
+``` bash
+virtualenv venv
+```
 
+#### 4. Aktifkan Virtual Environment
+Aktifkan environment yang telah dibuat:
+```
+venv\Scripts\activate
+```
+
+#### 5. Install Dependencies
+Instal semua dependensi yang dibutuhkan proyek:
+
+```
+pip install -r requirements.txt
 ```
 
 ## 📈 Business Dashboard
@@ -104,7 +132,7 @@ Model ini kemudian dikembangkan menjadi sistem prediksi untuk membantu institusi
 Aplikasi ini dibangun menggunakan framework **Streamlit** sehingga mudah digunakan dan dapat dijalankan secara lokal. Untuk menjalankan aplikasi, gunakan perintah berikut pada terminal:
 
 ```bash
-streamlit run streamlit_app.py
+streamlit run app.py
 ```
 
 Dapat diakses melalu Steamlit Community Cloud : [Students Performance Prediction](https://student-dropout-rcvv37srkuw2sv758cxjbr.streamlit.app/) 
